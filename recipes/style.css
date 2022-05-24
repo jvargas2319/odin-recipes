@@ -3,12 +3,11 @@ h1{
     text-align: center;
     text-decoration: underline;
     font-size: 4rem;
-    width: 400px;
-    border-radius: 10%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    
 }
 
 img {
+    
     height: auto;
     width: 180px;
     
@@ -22,15 +21,40 @@ img {
     text-align: center;
     border-radius: 5%;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
-    padding: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
     font-size: 1.5rem;
 }
 
 .ingredients h2{
     text-decoration: underline;
+    
 }
-
+.ingredients h3 {
+    padding-top: 13px;
+}
 li {
     text-align: center;
-    list-style-type: none;
+    
+}
+ol {
+    padding-right: 30px;
+    padding-bottom: 49px;
+}
+ul {
+    padding-right: 30px;
+    padding-bottom: 49px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+img {
+    margin-top: 50px;
+    border-radius: 25%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
 }
